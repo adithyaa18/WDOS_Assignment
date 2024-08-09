@@ -1,0 +1,256 @@
+/*header section*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header,footer{
+    background-color:rgb(133,187,101);
+    border-radius: 10px;
+    color:rgb(6, 6, 6);
+    text-align: center;
+  }
+
+h1,h2 {
+    text-align: center;
+    color: #333;
+}
+h2{
+    background-color: rgb(133,187,101);
+}
+/*navigation bar*/
+
+nav {
+    display: block;
+    justify-content: space-between; /* Space out the items */
+    align-items: center; 
+    padding: 10px 20px; /* Add some padding */
+ 
+}
+
+.nav_button{
+    background-color:rgb(79, 121, 66);
+    border:none;
+    color:#defde0;;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:4px 2px;
+    cursor:pointer;
+  
+  }
+  nav input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    width: 550px;
+  }
+    
+/*product*/
+.dropbtn{
+    background-color: rgb(79, 121, 66);
+    color:#defde0;;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(106, 161, 33);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: rgb(106, 161, 33);}
+
+/*body*/
+.intro{
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    background-color: #e5e5e5;
+    border: 1px solid #ddd; 
+    border-radius: 5px; /* Rounded corners */
+}
+
+.container {
+    max-width: 1200px; /* Limit the width for better readability */
+    margin: 0 auto; /* Center align the content */
+    padding: 20px;
+}
+
+.product-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between items */
+    justify-content: space-around; /* Distribute items evenly */
+}
+
+.product {
+    flex: 1 1 200px; /* Adjust item size and flexibility */
+    padding: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 5px; /* Rounded corners */
+    text-align: center;
+    background-color: white; 
+}
+
+.product img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.name {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.description {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.price {
+    font-size: 1em;
+    color: #333;
+    margin-top: 10px;
+}
+
+.order-button {
+    display: inline-block; /* Allow for inline styling */
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 1.1em;
+}
+
+.order-button:hover {
+    background-color: #3367d6; /* Darken on hover */
+}
+
+/*Footer*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-section.about h1 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.socials a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.socials a:hover {
+  opacity: 0.7;
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links ul li {
+  margin-bottom: 10px;
+}
+
+.links ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.links ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #666;
+  font-size: 0.8em;
+  color: #ccc;
+}
+
+@media  screen and (max-width:600px) {
+  header{
+    text-align: center;
+  }
+  nav{
+    display: block;
+  }
+  nav input[type=text]{
+    white-space: pre-line;
+    width: 300px;
+  }
+  header{
+    text-align: center;
+  }
+  nav{
+    display: block;
+  }
+  
+  .container {
+		max-width: 1170px;
+	}
+  
+    
+  }
+  
+  
+
+ 
+
+  
+  

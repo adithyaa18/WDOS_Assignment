@@ -1,0 +1,319 @@
+/*header section*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(179, 225, 172);
+}
+
+header,footer{
+  background-color:rgb(133,187,101);
+  border-radius: 10px;
+  color:rgb(6, 6, 6);
+  text-align: center;
+}
+
+
+
+h1,h2 {
+  text-align: center;
+  color: #333;
+}
+h2{
+  background-color: rgb(133,187,101);
+}
+/*navigation bar*/
+
+nav {
+  display: block;
+  justify-content: space-between; /* Space out the items */
+  align-items: center; /* Center-align items vertically */
+  padding: 10px 20px; /* Add some padding */
+  background-color:rgb(106, 161, 33); /* Dark background color */
+}
+
+.nav_button{
+  background-color:rgb(79, 121, 66);
+  border:none;
+  color:#defde0;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:4px 2px;
+  cursor:pointer;
+
+}
+nav input[type=text] {
+  padding: 6px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 17px;
+  width: 550px;
+}
+.search{
+  height: 35px;
+}
+/*product*/
+.dropbtn{
+  background-color: rgb(79, 121, 66);
+  color:#defde0;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(106, 161, 33);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgb(106, 161, 33);}
+
+/*vegetables*/
+
+.vegetables, .venue{
+    background-color:rgb(133,187,101);
+    margin: 20px;
+    padding:20px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.venue_container{
+  display: block;
+  justify-content: space-between;
+  width: 93%;
+  }
+
+.venue-description{
+  width:100%;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.venue-description img{
+  height:300px ;
+  width:300px
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.vegetable {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  font-size: medium;
+  
+}
+
+.vegetable img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: 300px;
+  width: 250px;
+}
+
+.name {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.quantity {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.price {
+    font-size: 1em;
+    color: #333;
+    margin-top: 10px;
+}
+
+.order-button {
+    display: inline-block; /* Allow for inline styling */
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #4285f4; /* Blue background */
+    color: black; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center-align text */
+    text-decoration: none; /* No underline */
+    font-size: 1.1em;
+}
+
+.order-button:hover {
+    background-color: #3367d6; /* Darken on hover */
+}
+
+
+a{
+    color:black;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-section.about h1 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.socials a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.socials a:hover {
+  opacity: 0.7;
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links ul li {
+  margin-bottom: 10px;
+}
+
+.links ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.links ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #666;
+  font-size: 0.8em;
+  color: #ccc;
+}
+
+  @media  screen and (max-width:600px) {
+    
+    nav input[type=text]{
+      white-space: pre-line;
+      width: 300px;
+    }
+    header{
+      text-align: center;
+    }
+    nav{
+      display: block;
+    }
+
+    .venue_container {
+      max-width: 1170px;
+      padding: 10px;
+      display: block;
+      text-align: center;
+    }
+
+    .venue-description{
+      font-size: 20px;
+      margin-bottom: 20px;
+      width: 800px;
+      margin-right: 10px;
+    }
+
+    .vegetable{
+      display: block;
+      height: 30%;
+    }
+
+    .venue img{
+      width: 100%;
+      height: auto;
+    }
+
+    .venue h3{
+      font-size: 20px;
+    }
+
+  
+    
+    .vegetable img {
+      width: 100%; /* Ensure images are responsive */
+      height: 200px;
+      
+    }
+
+    .name{
+      font-size: 10px;
+    }
+    .quantity {
+      font-size: 10px;
+    }
+    .grid-container{
+      height: 20px;
+    }
+
+    .vegetable img {
+      height: 300px;
+      width: 250px;
+    }
+  }
+  

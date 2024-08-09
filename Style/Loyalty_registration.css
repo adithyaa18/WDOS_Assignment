@@ -1,0 +1,277 @@
+/*header section*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(179, 225, 172);
+}
+
+header,footer{
+    background-color:rgb(133,187,101);
+    border-radius: 10px;
+    color:rgb(6, 6, 6);
+    text-align: center;
+  }
+
+
+
+h1,h2 {
+    text-align: center;
+    color: #333;
+}
+h2{
+    background-color: rgb(133,187,101);
+}
+/*navigation bar*/
+
+nav {
+    display: block;
+    justify-content: space-between; /* Space out the items */
+    align-items: center; /* Center-align items vertically */
+    padding: 10px 20px; /* Add some padding */
+}
+
+.nav_button{
+    background-color:rgb(79, 121, 66);
+    border:none;
+    color:#defde0;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:4px 2px;
+    cursor:pointer;
+  
+  }
+  nav input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    width: 550px;
+  }
+    
+/*product*/
+.dropbtn{
+    background-color: rgb(79, 121, 66);
+    color:#defde0;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(106, 161, 33);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: rgb(106, 161, 33);}
+
+h1{
+    color: rgb(67, 124, 23)
+}
+fieldset{
+    
+    font-size: large;
+}
+legend{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 30px ;
+    color: rgb(37,65, 23);
+
+}
+
+
+.loyalty_containter {
+  max-width: 1400px; /* Limit the width for better readability */
+  margin: 200px; /* Center align the content */
+  padding: 20px;
+  
+}
+.box{
+  margin-bottom: 100px;
+  background-color: rgb(153, 198, 142);
+  color: black;
+  font-size: 25px;
+  border:2.5px solid rgb(23, 23, 23);
+}
+.choice{
+  font-size: 40px;
+  text-align: center;
+  color: #e1e1e1;
+  background-color: grey;
+  
+}
+.loyalty_form{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.loyalty_form h4 {
+	color: #1c1c1c;
+	font-weight: 700;
+	border-bottom: 1px solid #e1e1e1;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+}
+
+.loyalty_form label {
+	column-rule: #b2b2b2;
+}
+
+.loyalty_input {
+	margin-bottom: 24px;
+}
+
+.loyalty_input label {
+	color: #1c1c1c;
+	margin-bottom: 20px;
+}
+
+.loyalty_input label span {
+	color: #dd2222;
+}
+
+.loyalty_input input {
+	height: 46px;
+	border: 1px solid #ebebeb;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #b2b2b2;
+	border-radius: 4px;
+}
+
+.selection{
+  width: 300px;
+  height: 28px;
+  font-size: 15px;
+}
+.box p{
+  text-align: center;
+  color: green;
+  text-decoration: underline;
+}
+.end_button{
+    font-size: 20px;
+    background-color:rgb(180, 201, 174);
+    border:none;
+    color:rgb(18, 18, 18);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin:4px 2px;
+    cursor:pointer;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-section.about h1 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.socials a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.socials a:hover {
+  opacity: 0.7;
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links ul li {
+  margin-bottom: 10px;
+}
+
+.links ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.links ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #666;
+  font-size: 0.8em;
+  color: #ccc;
+}
+
+
+@media  screen and (max-width:600px) {
+  
+  nav input[type=text]{
+    white-space: pre-line;
+    width: 300px;
+  }
+  header{
+    text-align: center;
+  }
+  nav{
+    display: block;
+  }
+  .box{
+    font-size: 17px;
+  }
+  .choice{
+    font-size: 20px;
+  }
+}
+
+

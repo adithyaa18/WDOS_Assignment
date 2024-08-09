@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Order</title>
+        <link rel="stylesheet" href="Style/order.css">
+        <link rel="manifest" href ="manifest.json">
+    
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16 (1)/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16 (1)/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16 (1)/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    
+    </head>
+    <body>
+        <header>
+            <img src="Images/logo_copy.png" width="300" alt="logo"><br><br><br>
+            <nav>
+                <a href="home.html" class="nav_button"> Home </a>
+                <div class="dropdown">
+                    <button class="dropbtn">Products</button>
+                    <div class="dropdown-content">
+                      <a href="dariy_products.html">Dairy Products</a>
+                      <a href="vegetbles.html">Vegetables</a>
+                      <a href="cosmetics.html">Cosmetics</a>
+                    </div>
+                </div>
+                <a href="sections.html" class="nav_button">Buy Now</a>
+                    <a href="about_us.html" class="nav_button">About Us</a>
+                    <a href="loyalty_registration.html" class="nav_button">Loyalty</a><br>
+                
+                    <label for="search">Search:
+                        <input type="text" id="search" name="query" placeholder="Enter search terms">
+                    </label>
+                    <button type="submit">Search</button>
+            </nav>
+    
+        </header>
+
+        <main>
+            <h1>Order NOW!</h1>
+            <div class="shoping__cart__table">
+                <table class="table" id="cartTable">
+                    <thead>
+                        <tr>
+                            <th class="shoping__product">Products</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                            <th>Remove</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Cart items will be inserted here -->
+                    </tbody>
+                </table>
+                <div class="shoping__checkout">
+                    <h5>Cart Total</h5>
+                    <ul>
+                        <li>Total<span id="subtotal">0.00</span></li>
+                        
+                    </ul>
+                    <a href="./checkout.html" class="primary-btn">PROCEED TO CHECKOUT</a>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h1>About Us</h1>
+                    <p>Serving You with Excellence and Care</p>
+                    <div class="contact">
+                        <span><i class="fa fa-phone"></i> +94 112 556 888</span>
+                        <span><i class="fa fa-envelope"></i> freshpicks@gmail.com</span>
+                    </div>
+                    <div class="socials">
+                        <a href="#"><i class="fa fa-facebook"><img src="Images/facebook.png" alt="facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"><img src="Images/twitter_icon.png" alt="twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"><img src="Images/insta_icons.png" alt="insta"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Offers</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2024 Supermarket. Designed by Apsari Udawatte.
+            </div>
+            
+        </footer>
+    <script src="JS/main.js"></script>
+    </body>
+</html>

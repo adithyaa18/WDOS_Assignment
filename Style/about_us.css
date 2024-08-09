@@ -1,0 +1,261 @@
+/*header section*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(179, 225, 172);
+}
+
+header{
+  background-color:rgb(133,187,101);
+  border-radius: 10px;
+  color:rgb(6, 6, 6);
+  text-align: center;
+}
+
+
+
+h1,h2 {
+  text-align: center;
+  color: #333;
+}
+h2{
+  background-color: rgb(133,187,101);
+}
+/*navigation bar*/
+
+nav {
+  display: block;
+  justify-content: space-between; /* Space out the items */
+  align-items: center; /* Center-align items vertically */
+  padding: 10px 20px; /* Add some padding */
+}
+
+.nav_button{
+  background-color:rgb(79, 121, 66);
+  border:none;
+  color:#defde0;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:4px 2px;
+  cursor:pointer;
+
+}
+nav input[type=text] {
+  padding: 6px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 17px;
+  width: 550px;
+}
+  
+/*product button*/
+.dropbtn{
+  background-color: rgb(79, 121, 66);
+  color:#defde0;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(106, 161, 33);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgb(106, 161, 33);}
+
+
+.about {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+
+}
+.container {
+  max-width: 1400px; /* Limit the width for better readability */
+  margin: 0 auto; /* Center align the content */
+  padding: 20px;
+  background-color: rgb(216, 228, 214);
+}
+#history #branches #services{
+    background-color:rgb(133,187,101);
+    margin: 20px;
+    padding:20px;
+    border-radius: 10px;
+}
+
+.email{
+  color: blue;
+  text-decoration: underline;
+}
+
+
+.table{
+  margin: 5px;
+  border-collapse: collapse;
+  font-size: 20px;
+  min-width: 60px;
+  text-align: center;
+  border:1px 
+}
+
+table caption{
+  align-items: top;
+}
+.table thead th{
+    background-color: rgb(109, 187, 152);
+    color:floralwhite;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.table td th{
+    padding: 20px;
+    font-size: 20px;
+}
+.table tbody tr{
+    border-bottom: 2px solid black;
+}
+
+.table tbody tr:nth-of-type(even)
+{
+    background-color:rgb(135, 193, 173)
+        
+}
+
+.galle,.matara,.colombo{
+    font-size: 30px;
+    background-color: rgb(30, 31, 30);
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+dd{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-section.about h1 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.socials a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.socials a:hover {
+  opacity: 0.7;
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links ul li {
+  margin-bottom: 10px;
+}
+
+.links ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.links ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #666;
+  font-size: 0.8em;
+  color: #ccc;
+}
+
+@media  screen and (max-width:600px) {
+
+  nav input[type=text]{
+    white-space: pre-line;
+    width: 300px;
+  }
+  header{
+    text-align: center;
+  }
+  nav{
+    display: block;
+  }
+  .about{
+    font-size: 1px;
+  }
+ 
+  th,tr,td{
+    display: block;
+  }
+
+
+ 
+  
+}
+
+@media screen and (max-width:700px){
+
+  th{
+    display: none;
+  }
+}

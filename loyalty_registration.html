@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loyalty registration page </title>
+    <link rel="stylesheet" href="Style/Loyalty_registration.css">
+    <link rel="manifest" href ="manifest.json">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16 (1)/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16 (1)/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16 (1)/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+    <header>
+        <img src="Images/logo_copy.png" width="300" alt="logo"><br><br><br>
+        <nav>
+            <a href="home.html" class="nav_button">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Products</button>
+                <div class="dropdown-content">
+                  <a href="dariy_products.html">Dairy Products</a>
+                  <a href="vegetbles.html">Vegetables</a>
+                  <a href="cosmetics.html">Cosmetics</a>
+                </div>
+            </div>
+            <a href="sections.html" class="nav_button">Buy Now</a>
+                <a href="about_us.html" class="nav_button">About Us</a>
+                <a href="loyalty_registration.html" class="nav_button">Loyalty</a>
+            
+                <label for="search">Search:
+                    <input type="text" id="search" name="query" placeholder="Enter search terms">
+                </label>
+                <button type="submit">Search</button>
+        </nav>
+
+    </header>
+    <main>
+        <h2>Register NOW !</h2>
+        <div class="containter">
+            <form class="loyalty_form">
+                <fieldset>
+                    <legend><h4>Personal Information</h4></legend>
+
+
+                    <div class="loyalty_input">
+                        <label>
+                            First Name: <span>*</span></p>
+                            <input type="text" name="first_name" required>
+                        </label>
+                    </div>
+
+                    <div class="loyalty_input">
+                        <label>
+                            Last Name: <span>*</span>
+                            <input type="text" name="last_name" required>
+                        </label>
+                    </div>
+
+                    <div class="loyalty_input">
+                        <label>
+                            Date of Birth: <span>*</span>
+                            <input type="date" name="dob" required>
+                        </label>
+                    </div>
+                    <div class="loyalty_input">
+                        <p>Gender:</p>
+                        <input type="radio" id="male" name="gender" value="Male"><label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="Female"><label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other"><label for="other">Other</label>
+                    </div>
+                </fieldset><br><br>
+
+                <fieldset>
+                    <legend><h4>Contact Information</h4></legend>
+
+                    <div class="loyalty_input">
+                        <label>
+                            Mobile Number: <span>*</span>
+                            <input type="text" name="number" maxlength="10" required >
+                        </label>
+                    </div>
+
+                    <div class="loyalty_input">
+                        <label>
+                            Email: <span>*</span>
+                            <input type="email" name="number" required >
+                        </label>
+                    </div>
+
+                    <div class="loyalty_input">
+                        <label>
+                            Create a Password: <span>*</span>
+                            <input type="password" name="cpassword" required>
+                        </label>
+                    </div>
+
+                    <div class="loyalty_input">
+                        <label>
+                            Re-Enter the Password: <span>*</span>
+                            <input type="password" name="rpassword" required>
+                        </label>
+                    </div>
+
+                </fieldset><br><br>
+
+                <fieldset>
+
+                    <legend><h4>Loyalty Scheme</h4></legend>
+                    <div class="loyalty_container">
+                        <div class="box"><div class="choice">Free</div>
+                            <ul>
+                                <li>Customers can be redeemed for discounts,free products or special offers</li>
+                                <li>Early access to sales, new products or limited-time offers</li>
+                                <li>Access to member only sales</li>
+                                <li>spcial offers on the customer's birthday</li>
+                            </ul>
+                        </div>
+                        <div class="box"><div class="choice">Premium</div>
+                            <p>You have to pay Rs.500 per month</p>
+                            <ul>
+                                <li>Free Delivery</li>
+                                <li>Addtional points on specific categories</li>
+                                <li>Personal shopper services</li>
+                                <li>More flexible or extended return and exchange policies</li>
+                                <li>Accelerated points accumulation rates,such as double or triple points per purchase</li>
+                            </ul>
+                        </div>
+                    </div><br><br>
+                    <div class="loyalty_input">
+                        <p>Loyalty Programme: <span>*</span></p>
+                                    
+                        <select class="selection">
+                            <option value="free">Free</option>
+                            <option value="premium">Premium</option>
+                        </select>
+                    </div>
+
+                </fieldset><br><br>
+
+                <button type="submit" class="end_button">Submit</button>
+
+                <button type="reset" class="end_button">Clear</button>
+
+            </form><br><br>
+            
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h1>About Us</h1>
+                <p>Serving You with Excellence and Care</p>
+                <div class="contact">
+                    <span><i class="fa fa-phone"></i> +94 112 556 888</span>
+                    <span><i class="fa fa-envelope"></i> freshpicks@gmail.com</span>
+                </div>
+                <div class="socials">
+                    <a href="#"><i class="fa fa-facebook"><img src="Images/facebook.png" alt="facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"><img src="Images/twitter_icon.png" alt="twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"><img src="Images/insta_icons.png" alt="insta"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Offers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Supermarket. Designed by Apsari Udawatte.
+        </div>
+        
+    </footer>
+    <script src="JS/main.js"></script>
+</body>
+</html>

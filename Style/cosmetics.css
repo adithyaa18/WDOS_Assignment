@@ -1,0 +1,293 @@
+@media  screen and (max-width:600px) {
+  
+  nav input[type=text]{
+    white-space: pre-line;
+    width: 300px;
+  }
+  
+  header{
+    text-align: center;
+  }
+  nav{
+    display: block;
+  }
+  h1{
+    color: #333;
+   }
+  
+   table {
+    display: block;
+}
+
+tr {
+    display: block;
+    margin-bottom: 20px;
+}
+
+td {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+}
+body{
+    background-color: rgb(225, 231, 225);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+
+}
+
+header{
+    background-color:rgb(133,187,101);
+    border-radius: 10px;
+    color:rgb(6, 6, 6);
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+    color: rgb(174, 101, 101);
+    text-align: center;
+    
+}
+
+.dropbtn,.offers, .about ,.form, .home{
+    
+  color:#defde0;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(106, 161, 33);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgb(106, 161, 33);}
+button{
+  background-color:rgb(79, 121, 66);
+  border:none;
+  color:rgb(18, 18, 18);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:4px 2px;
+  cursor:pointer;
+}
+.nav_button{
+  background-color:rgb(79, 121, 66);
+  border:none;
+  color:#defde0;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:4px 2px;
+  cursor:pointer;
+
+}
+nav input[type=text] {
+  padding: 6px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 17px;
+  width: 550px;
+}
+
+.search{
+  height: 35px;
+  background-color: #ddd;
+
+}
+
+nav {
+  display: block;
+  justify-content: space-between; /* Space out the items */
+  align-items: center; /* Center-align items vertically */
+  padding: 10px 20px; /* Add some padding */
+  
+}
+.intro {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+/*table*/
+
+h4{
+  color: #1c1c1c;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 28px;
+
+}
+.shampoo ,.conditioner ,.face_wash, .face_cream, .perfumes{
+  max-width: 600px; /* Limit the width for better readability */
+  margin: 0 auto; /* Center align the content */
+  padding: 20px;
+  background-color: rgb(216, 228, 214);
+
+}
+
+table{
+  width: 100%;
+}
+
+td {
+  width: 23%; /* Adjust the percentage for your needs */
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+
+tr:nth-child(even) {
+    background-color: rgb(249, 249, 249); /* Alternating row colors */
+}
+
+a {
+    text-decoration: none; /* No underline on links */
+    color: blue; /* Blue text color for links */
+}
+
+
+.image {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+}
+
+.name {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.description {
+  font-size: 0.9em;
+  color: #3d3a3a;
+}
+
+.price {
+  font-size: 1em;
+  color: #333;
+  margin-top: 10px;
+}
+
+.order-button {
+  display: inline-block; /* Allow for inline styling */
+  padding: 10px 20px; /* Padding for the button */
+  background-color: #4285f4; /* Blue background */
+  color: black; /* White text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center; /* Center-align text */
+  text-decoration: none; /* No underline */
+  font-size: 1.1em;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+  color: white;
+}
+
+.footer-section.about h1 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.socials a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.socials a:hover {
+  opacity: 0.7;
+}
+
+.links h2{
+  background-color: rgb(133,187,101);
+  color: black;
+}
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links ul li {
+  margin-bottom: 10px;
+}
+
+.links ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.links ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #666;
+  font-size: 0.8em;
+  color: #ccc;
+}
+
+.order-button:hover {
+  background-color: #3367d6; /* Darken on hover */
+}
+
+

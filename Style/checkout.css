@@ -1,0 +1,378 @@
+/*header section*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    background-color:rgb(133,187,101);
+    border-radius: 10px;
+    color:rgb(6, 6, 6);
+    text-align: center;
+  }
+
+
+
+h1,h2 {
+    text-align: center;
+    color: #333;
+}
+h2{
+    background-color: rgb(133,187,101);
+    
+}
+/*navigation bar*/
+
+nav {
+    display: block;
+    justify-content: space-between; /* Space out the items */
+    align-items: center; /* Center-align items vertically */
+    padding: 10px 20px; /* Add some padding */
+}
+
+.nav_button{
+    background-color:rgb(79, 121, 66);
+    border:none;
+    color:#defde0;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:4px 2px;
+    cursor:pointer;
+  
+  }
+  nav input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    width: 550px;
+  }
+  .search{
+    height: 35px;
+  }
+    
+/*product*/
+.dropbtn{
+    background-color: rgb(79, 121, 66);
+    color:#defde0;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(106, 161, 33);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: rgb(106, 161, 33);}
+/*mian section*/
+
+
+.containter {
+  max-width: 1400px; /* Limit the width for better readability */
+  margin: 0 auto; /* Center align the content */
+  padding: 20px;
+  background-color: #f0f8ff;
+  margin-bottom: 30px;
+  border-radius: 5px;
+
+ 
+}
+  .place_an_order h2 {
+	font-size: 46px;
+	color: black;
+	font-weight: 700;
+  font-weight: bold;
+}
+
+.checkout__form{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+  .checkout__form h4 {
+	color: #1c1c1c;
+	font-weight: 700;
+	border-bottom: 1px solid #e1e1e1;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+}
+
+.checkout__form label {
+	column-rule: #b2b2b2;/*specify the appearance of the line betweeen colomumns in multi column layput*/
+}
+
+.checkout__input {
+	margin-bottom: 24px;
+}
+
+.checkout__input label {
+	color: #1c1c1c;
+	margin-bottom: 20px;
+  display: block;
+}
+
+.checkout__input label span {
+	color: #dd2222;
+}
+
+.checkout__input input {
+	height: 46px;
+	border: 1px solid #ebebeb;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #b2b2b2;
+	border-radius: 4px;
+}
+
+.checkout__order {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.checkout__order h4 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table td img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 10px; /* Add some space between image and text */
+  vertical-align: middle;
+}
+
+.custom-radio{
+  margin-right: 10px; /* Add some space between image and text */
+  vertical-align: middle;
+}
+
+.sub{
+  margin-left: 20px;
+  font-size: 15px;
+  color: #2b2525;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+}
+
+.ph1,.ph2,.street_address{
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.delivery-charge {
+  font-size: 1em;          
+  color: #555;             
+  text-align: right;      
+  margin: 10px 0;         
+  font-weight: bold;      
+  background-color: #f9f9f9; 
+  padding: 10px;           
+  border-radius: 5px;      
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+}
+
+
+.stotal, .ftotal {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: right;
+}
+
+.ftotal {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.site-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff;
+  color:black;
+  text-align: center;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.site-btn:hover {
+  background-color: #0056b3;
+}
+
+#confirmationMessage p {
+  display: block; 
+  background-color: rgb(133,187,101); 
+  border: 1px solid black; 
+  border-radius: 5px; 
+  color: black; 
+  padding: 15px 20px; 
+  margin: 10px 0; 
+  font-size: 16px; 
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+.ftotal{
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.stotal{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-section.about h1 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.socials a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.socials a:hover {
+  opacity: 0.7;
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links ul li {
+  margin-bottom: 10px;
+}
+
+.links ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.links ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #666;
+  font-size: 0.8em;
+  color: #ccc;
+}
+
+@media  screen and (max-width:600px) {
+  
+  nav input[type=text]{
+    white-space: pre-line;
+    width: 300px;
+  }
+  header{
+    text-align: center;
+  }
+  nav{
+    display: block;
+  }
+  
+  
+}
